@@ -1,0 +1,99 @@
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #352f5b;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.center_wrapper{
+    max-width: 500px;
+    margin: 8% auto;
+    text-align: center;
+}
+
+/* Header Container */
+.header_container h2{
+    margin-bottom: 1.55rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.header_container .search_form,
+.list_container,
+.add_container{
+    width: 85%;
+    margin: auto;
+}
+#search_input,#add_input{
+    width: 100%;
+    background-color: #2d2755;
+    border: none;
+    line-height: 2.5rem;
+    text-indent: 0.8rem;
+    color:#fff;
+    font-size: 1.2rem;
+    
+}
+
+#search_input::placeholder,
+#add_input::placeholder{
+    font-size: 1.2rem;
+    color: #888;
+}
+
+/* List Items */
+.list_container{
+    margin-top: 50px;
+    margin-bottom: 3.5rem;
+}
+.todo_items{
+    list-style-type: none;
+   
+}
+.todo_item{
+    background-color: #463f72  ;
+    border: none;
+    line-height: 2.5rem;
+    text-indent: 0.8rem;
+    display: flex;
+    border-bottom: 2px solid #3c375c;
+    margin-bottom: 0.1rem;
+}
+.todo_item span{
+    align-self: center;
+    flex: 1;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.todo_item i{
+    align-self: center;
+    font-size: 1.2rem;
+    padding-right: 0.75rem;
+    border-left: 2px solid #241f42;
+    cursor: pointer;
+}
+
+/* Add Item */
+.add_container{
+
+}
+.add_container h3{
+    margin-bottom: 1rem;
+}
+
+/* Hide Class */
+.hidden{
+    display: none;
+}
